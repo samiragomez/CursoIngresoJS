@@ -1,19 +1,11 @@
 /*Debemos lograr tomar un nombre con 'prompt' 
-y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
+y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
- { 
- 	//comentario de una linea
- 	/* comentario en bloque
+{
+	var nombre
+	nombre= prompt("nombre")
+	alert("nombre")
+	alert(nombre)
 
-
- 	*/
-
-
-    var nombre;
-   var nombre = prompt("Please enter your name", "Samira");
-   alert (nombre);
-   alert("nombre");
-   // alert ("nombre"); se muestra el mensaje
- }
-
+}
 
